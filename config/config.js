@@ -31,7 +31,7 @@ var config = {
 	locale: "en-US",
 	logLevel: ["INFO", "LOG", "WARN", "ERROR"], // Add "DEBUG" for even more logging
 	timeFormat: 12,
-	units: "metric",
+	units: "imperial",
 	// serverOnly:  true/false/"local" ,
 	// local for armv6l processors, default
 	//   starts serveronly and then starts chrome browser
@@ -39,6 +39,10 @@ var config = {
 	// true, force serveronly mode, because you want to.. no UI on this device
 
 	modules: [
+		{
+			module: "hello_world",
+			position: "top_right"
+		},
 		{
 			module: "alert",
 		},
