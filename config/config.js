@@ -39,10 +39,10 @@ var config = {
 	// true, force serveronly mode, because you want to.. no UI on this device
 
 	modules: [
-		{
-			module: "hello_world",
-			position: "top_right"
-		},
+		// {
+		// 	module: "hello_world",
+		// 	position: "middle_center"
+		// }
 		{
 			module: "alert",
 		},
